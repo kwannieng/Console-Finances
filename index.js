@@ -110,11 +110,7 @@ for (let index=0; index<finances.length; index++){
             change = finances[index][index2] - net;
             net = finances[index][index2];
             netSumChange +=change;
-
-            netArray.push (change)
-
-            console.log (change)
-            
+            netArray.push (change);            
             if (change > greatestProfit[1] ){
                 greatestProfit = [finances[index][0], finances[index][1]]
             }
@@ -125,22 +121,7 @@ for (let index=0; index<finances.length; index++){
     }
 }
 
-
-
-
 average = Math.round (netSumChange / 86);
-
-
-
-
-// Financial Analysis
-// ----------------------------
-// Total Months: 25
-// Total: $2561231
-// Average  Change: $-2315.12 
-// Greatest Increase in Profits: Feb-2012 ($1926159)
-// Greatest Decrease in Profits: Sep-2013 ($-2196167)
-
 
 console.log ("Financial Analysis" + "\n" 
 + "----------------------------" + "\n" 
