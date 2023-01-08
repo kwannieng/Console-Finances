@@ -11,4 +11,4 @@ This website provide a financial analysis in console, including total months of 
 
 ##Link to deployed application:
 
-https://kwannieng.github.io/Financial-Analysis-/
+https://kwannieng.github.io/Data-Analysis-/
